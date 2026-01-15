@@ -1,0 +1,15 @@
+{
+  "entryFile": "src/server.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/rest-api/controllers/*.ts"],
+  "skipLibCheck": false,
+  "spec": {
+    "outputDirectory": "./dist",
+    "specVersion": 3
+  },
+  "routes": {
+    "routesDir": "src/rest-api/routes",
+    "iocModule": "src/rest-api/lib/tsyringeTsoaIocContainer.ts",
+    "esm": true
+  }
+}

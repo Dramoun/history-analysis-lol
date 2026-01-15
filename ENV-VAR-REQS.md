@@ -1,0 +1,6 @@
+PG databse:
+    PG_HOST -
+    PG_PORT -
+    PG_USER - 
+    PG_PASSWORD -
+    PG_DATABASE - 
