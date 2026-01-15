@@ -2,3 +2,5 @@
 node_modules/
 dist/
 src/rest-api/routes/
+
+*.env
